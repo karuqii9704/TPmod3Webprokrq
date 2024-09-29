@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+</head>
+
+<body>
+
+    <h1>Profil Pribadi</h1>
+
+    <table> <!-- Tag 'table' untuk membuat tabel -->
+        <tr> <!-- Tag 'tr' untuk baris/row dalam tabel -->
+            <td> <!-- Tag 'td' untuk data dalam kolom tabel -->
+                <h3>Foto Profil</h3>
+                <div id="profile-container">
+                    <div>
+                        <img id="profile-image" src="assets/Rifqi 1.JPG" alt="Foto Profil" height="240">
+                        <!-- Tag 'img' untuk menampilkan gambar -->
+            </td>
+            <td>
+                <h3>Video Perkenalan</h3>
+                <video width="320" height="240" controls>
+                    <source src="assets/introkrq.mp4" type="video/mp4"> <!-- Tag 'video' untuk menampilkan video -->
+                </video>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Tentang Saya</h2>
+    <p>Assalamu'alaikum, Halo semuanya!! Kenalin aku Rifqi Sigwan Nugraha, Biasa dipanggil Rifqi, aku berasal dari Kabupaten Kerinci, Provinsi Jambi.</p>
+    <p></p>Saat ini sedang berkuliah sebagai mahasiswa tingkat 3, prodi S1 Teknologi Informasi, Telkom University</p><!-- Tag 'p' untuk paragraf -->
+    
+    <h2>Keterampilan</h2>
+    <table width="50" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Keterampilan</th> <!-- Tag 'th' untuk header tabel -->
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Pemula</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Pemula</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>Menengah</td>
+        </tr>
+    </table>
+    <h2>Hubungi Saya</h2>
+    <label for="nama">Nama:</label><br> <!-- Tag 'th' untuk line break -->
+    <input type="text" id="nama" name="nama"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="pesan">Pesan:</label><br>
+    <textarea id="pesan" name="pesan" rows="4"
+        cols="50"></textarea><br><br><!-- Tag 'textarea' untuk input teks multi-line -->
+
+    <input type="submit" value="Kirim Pesan">
+
+    <h2>yuk mutualan:</h2>
+    <a href="https://github.com/karuqii9704" target="_blank"><img src="assets/github.png" alt="logo" width="25"
+            height="25">Github</a> <!-- Tag 'a' untuk link -->
+    <a href="https://www.instagram.com/rfqsn_" target="_blank"> <img src="assets/ig.jpeg" alt="logo" width="25"
+            height="25">Instagram</a> <!-- Tag 'a' untuk link -->
+</body>
+<footer>
+    <br>
+    <br>
+    <p allign="center"> TP MOD 3 Pemrograman Web, Rifqi Sigwan Nugraha, 1303223004</p>
+</footer>
+</html>
